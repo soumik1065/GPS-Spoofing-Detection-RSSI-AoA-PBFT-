@@ -192,7 +192,7 @@ def main():
     def update(frame):
         nonlocal attack_start_time, detection_time, leader_uid, total_round_time 
 
-        round_start_time = time.perf_counter()   # ADDED
+        round_start_time = time.perf_counter()   
 
         pbft_prepare_votes.clear()
         pbft_commit_votes.clear()
